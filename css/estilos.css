@@ -26,7 +26,8 @@ body {
     background-color: var(--color-banner);
 }
 .info-banner{
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,7 @@ body {
 
 /* boton personalizado */
 .btn{
-    width: 150px;
+    width: 160px;
     margin: 0 10px;
 }
 .btn-primary {
@@ -68,9 +69,8 @@ body {
     background-color: var(--color-fondo);
 }   
 
-/* nosotros */
-.img-nosotros{
-    max-width: 400px;
+.img-referencia {
+    max-width: 500px;
     width: 100%;
 }
 

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+   --color-primario: #556B2F;
+    --color-hover: #435623;
+    --color-banner: #6F4E37;
+    --color-boton-primario: #E1AD01;
+    --color-boton-primario-hover: #b48a00;
+    --color-boton-secundario: #F5DEB3;
+    --color-boton-secundario-hover: #bcab89;
+    --color-texto: #330f39;
+    --color-fondo: #f7f5f1;
+    --color-blanco: #ffffff;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    color: var(--color-texto);
+}
+
+/* banner */
+.box-banner{
+    color: var(--color-blanco);
+    background-color: var(--color-banner);
+}
+.info-banner{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.img-banner{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* boton personalizado */
+.btn{
+    width: 150px;
+    margin: 0 10px;
+}
+.btn-primary {
+  background-color: var(--color-boton-primario);
+  border-color: var(--color-boton-primario);
+}
+.btn-primary:hover {
+  background-color: var(--color-boton-primario-hover);
+  border-color:  var(--color-boton-primario-hover);
+}
+.btn-secondary {
+  background-color: var(--color-boton-secundario);
+  border-color: var(--color-boton-secundario);
+  color: var(--color-texto);
+}
+.btn-secondary:hover {
+  background-color: var(--color-boton-secundario-hover);
+  border-color: var(--color-boton-secundario-hover);
+}
+
+/* fondo personalizado */
+.bg-light {
+    background-color: var(--color-fondo);
+}   
+
+/* nosotros */
+.img-nosotros{
+    max-width: 400px;
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: var(--color-banner) ;
+    color:var(--color-blanco);
+    font-size: .9rem;
+}

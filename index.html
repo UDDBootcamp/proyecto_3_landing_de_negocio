@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <title>Coffe Shop</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-marca" src="./img/logo.png" alt="imagen logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#que-ofrecemos">¿Qué ofrecemos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cafe-dia">Café del día</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#puntos">Tus Puntos <span
+                                    class="badge text-bg-danger">Nuevo</span></a>
+                        </li>
+                    </ul>
+                    <a href="#puntos" class="btn btn-outline-success">Iniciar Sesión</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 box-banner d-flex justify-content-center align-items-center flex-column">
+                    <div class="info-banner">
+                        <p>Bienvenido a Café y Brownie</p>
+                        <h1 class="titulo fw-bold">Disfruta tu mañana con un buen café </h1>
+                        <div class="d-flex pt-4">
+                            <a href="#que-ofrecemos" class="btn btn-primary">Servicios</a>
+                            <a href="#cafe-dia" class="btn btn-secondary">Café del día</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 img-banner"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- marcas -->
+        <section class="container-fluid py-5 bg-light">
+            <div class="container d-flex justify-content-between">
+                <figure>
+                    <img class="img-marca" src="./img/marca1.png" alt="marca 1" />
+                </figure>
+                <figure>
+                    <img class="img-marca" src="./img/marca2.png" alt="marca 2" />
+                </figure>
+                <figure>
+                    <img class="img-marca" src="./img/marca3.png" alt="marca 3" />
+                </figure>
+                <figure>
+                    <img class="img-marca" src="./img/marca4.png" alt="marca 4" />
+                </figure>
+            </div>
+        </section>
+        <!-- nosotros -->
+        <section id="nosotros" class="container-fluid py-5">
+            <div class="container d-flex">
+                <div class="col-12 col-md-6 px-5 text-end">
+                    <img class="img-nosotros" src="./img/nosotros.jpg" alt="nosotros" />
+                </div>
+                <div class="col-12 col-md-6 p-5">
+                    <h2 class="mb-5 fw-bold">Nosotros</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ipsa sed mollitia modi vitae
+                        veniam ex aspernatur rem ut porro labore iure, nihil quod velit possimus, quo inventore esse
+                        blanditiis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ipsa sed mollitia modi vitae
+                        veniam ex aspernatur rem ut porro labore iure, nihil quod velit possimus, quo inventore esse
+                        blanditiis.</p>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-primary">Contáctenos</button>
+                    </div>
+                </div>
+        </section>
+        <!-- ¿Qué ofrecemos? -->
+        <section id="que-ofrecemos" class="container-fluid bg-light py-5">
+            <div class="container">
+                <div class="offset-md-3 col-12 col-md-6 text-center">
+                    <h2 class="mb-5 text-center fw-bold">¿Qué ofrecemos?</h2>
+                    <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia, vitae facere
+                        consequuntur
+                        quam perspiciatis.</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./img/1.jpg" class="card-img-top" alt="Brownie">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Brownie</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./img/2.jpg" class="card-img-top" alt="Café">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Café</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./img/3.jpg" class="card-img-top" alt="Jugos naturales">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Jugos naturales</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./img/4.jpg" class="card-img-top" alt="Sándwich">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sándwich</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- cafe del dia -->
+        <section id="cafe-dia" class="container-fluid py-5">
+            <div class="container d-flex">
+                <div class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="mb-5 fw-bold">Café del día "Mocachino"</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ipsa sed mollitia modi vitae
+                        veniam ex aspernatur rem ut porro labore iure, nihil quod velit possimus, quo inventore esse
+                        blanditiis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ipsa sed mollitia modi vitae
+                        veniam ex aspernatur rem ut porro labore iure, nihil quod velit possimus, quo inventore esse
+                        blanditiis.</p>
+                </div>
+                <div class="col-12 col-md-6 p-5">
+                    <img class="img-nosotros" src="./img/mocachino.jpg" alt="mocachino" />
+                </div>
+        </section>
+        <!-- puntos -->
+        <section id="puntos" class="container-fluid bg-light py-5">
+            <div class="offset-md-4 col-12 col-md-4">
+
+                <h2 class="text-center pb-5 fw-bold">Para ver sus puntos inicie sesión</h2>
+                <div class="col-12 ">
+                    <label for="inputPassword5" class="form-label text-start">Usuario</label>
+                    <input class="form-control" type="text" aria-label="default input example">
+                    <label for="inputPassword5" class="form-label text-start">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control"
+                        aria-describedby="passwordHelpBlock">
+                    <div class="text-center mt-5">
+                        <a href="" class="btn btn-outline-success">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid py-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href=" #">
+                <img class="img-marca" src="./img/logo_blanco.png" alt="imagen logo footer" />
+                <ul>
+                    <li><a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="#que-ofrecemos">¿Qué ofrecemos?</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="#cafe-dia">Café del día</a></li>
+                    <li><a class="nav-link active" aria-current="page" href="#puntos">Tus Puntos <span
+                                class="badge text-bg-danger">Nuevo</span></a>
+                    </li>
+                </ul>
+                <div>
+                    <p>Desarrollado por: Marco Rubio Bustos</p>
+                </div>
+        </div>
+    </footer>
+</body>
+
+</html>
